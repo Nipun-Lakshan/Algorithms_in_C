@@ -32,8 +32,14 @@ int main()
     int result01 = linear_search(random_number_list, N, 30);
     int result02 = linear_search(random_number_list, N, 69);
 
-    printf("\n%d\n", result01);
-    printf("%d\n", result02);
+    // Header String Formatting
+
+    printf("\n=======================");
+    printf("\nLinear Search Algorithm");
+    printf("\n=======================\n\n");
+
+    printf("%d\n", result01); // -1
+    printf("%d\n", result02); //  3
 
     return 0;
 }
